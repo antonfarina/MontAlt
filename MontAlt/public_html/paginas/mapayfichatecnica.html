@@ -5,7 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
+    <head><!Titulo de la página>
         <title>MONT ALT Mapa y ficha técnica</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,8 @@ and open the template in the editor.
 
     <!Cuerpo de la pagina web>
     <body>
-        <!Cabecera con el nombre de la estacion y la foto>
+        <!Cabecera con el nombre de la estacion y la foto.
+         Ambas funcionarán como link a la página principal>
     <header>
         <h1><a href="index.html">MONT ALT</a></h1>
         <a href="index.html">
@@ -22,7 +23,7 @@ and open the template in the editor.
         </a>
     </header>
     
-    <!Panel de navegacion>
+    <!Panel de navegación con todas las páginas del sitio web, menos la principal>
     <aside>
         <ul>
             <li>Estación
@@ -44,14 +45,15 @@ and open the template in the editor.
         </ul>
     </aside>
 
+    <!Introducimos una sección con toda la información específica de la página>
     <section>
         <!titulo>
-        <h2>MAPA Y FICHA TÉCNICA</h2>
+        <h2>MAPA Y FICHA TÉCNICA</h2><!Establecemos el título>
         <article>
             <!mapa de la estacion>
             <img src="../Fotos/mapa.jpg" alt="Mapa de pistas">
         </article>
-        <!Tabla>
+        <!Tabla de pistas>
         <article>
             <table>
                 <!Pie de tabla>
@@ -161,9 +163,12 @@ and open the template in the editor.
             </table>
         </article>
 
+        <!Tabla de remontes>
         <article>
             <table>
+                <!Pie de tabla>
                 <caption>Tabla de remontes</caption>
+                <!Cabecera de la tabla>
                 <tr>
                     <th>NOMBRE</th> 
                     <th>TIPO</th>
@@ -234,16 +239,18 @@ and open the template in the editor.
 
             </table>
         </article>
-
+        <!Fin de la sección>
     </section>
-    <footer>
-        <h3>CONTACTO:</h3>
+    <footer><!Pie de página>
+        <h3>CONTACTO:</h3><!Información de contacto>
         <ul>
             <li>Información General: 956912315</li>
             <li>Reservas: 99582301</li>
             <li>Atención en pistas: 632154777</li>
             <li>Email: grupomontalt@gmail.com</li>
         </ul>
-        <img src="../Fotos/Logo.svg">
+        <!Logo de la empresa>
+        <img src="../Fotos/Logo.svg" alt="Mont Alt">
+        <!Fin del pie de página>
     </footer>
 </html>
