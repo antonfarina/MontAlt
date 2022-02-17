@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 feb. 2022, 15:40:04
+    Author     : anton
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#imgcabecera{
+    width: 100%;
+    height: auto;
+}
+#titulo{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.imgconfoto{
+    position: relative;
+}
+
+h2{
+    font-size: 30px;
+    color: #1F1F26;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #1F1F26;
+}
+
+ul{
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    color: #F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: inherit;
+    background-color: #1F1F26;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+
+
