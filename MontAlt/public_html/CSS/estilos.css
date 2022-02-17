@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@800&display=swap');
 
 body{
-    background-color: white;
+    background-color: #F2F2F2;
     font-family: 'Open Sans', sans-serif;
+}
+
+.imgconfoto{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
 }
 
 #imgcabecera{
@@ -16,11 +22,12 @@ body{
     color: #040A22;
     font-size: 100px;
     position:absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 100px;
 }
-.imgconfoto{
-    position: relative;
+
+#infocontacto > li{
+   list-style: none;
 }
 
 h2{
@@ -35,21 +42,35 @@ p{
     color: #1F1F26;
 }
 
+.tirafotos{
+    background-color: #2B5F8C;
+    padding: 50px;
+    float: left;
+}
+
+.tirafotos > img{
+    width: auto;
+    height: 200px;
+    display: inline;
+}
+
 nav{
     max-width: 100%;
-    margin:auto;
+    margin: auto;
     background-color: #1D5273;
     font-size: 25px;
-    padding: 0 0 0 0;
 }
 .menuhorizontal{
     list-style: none;
-    display:flex;
+    display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .menuhorizontal > li{
     color: #F2F2F2;
+    padding: 10px 60px;
+    border: 0px;
 }
 
 .menuhorizontal>li>a{
@@ -58,7 +79,7 @@ nav{
     color:#F2F2F2;
 }
 
-.menuhorizontal >li:hover{
+.menuhorizontal > li:hover{
     background-color: #2B5F8C;
 }
 
@@ -88,11 +109,17 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: inherit;
     background-color: #1F1F26;
-    padding-top: 50px;
+    padding-top: 500px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 80px; 
+}
+#logo{
+    width: 25%;
+    height: auto;
 }
 
-
-
+footer > p{
+    position: relative;
+    left: 30px;
+}
