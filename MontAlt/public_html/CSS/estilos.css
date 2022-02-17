@@ -1,25 +1,23 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 17 feb. 2022, 15:40:04
-    Author     : anton
-*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@800&display=swap');
+
 body{
     background-color: white;
     font-family: 'Open Sans', sans-serif;
 }
+
 #imgcabecera{
     width: 100%;
     height: auto;
 }
+
 #titulo{
+    font-family: 'Khula', sans-serif;
+    color: #040A22;
+    font-size: 100px;
     position:absolute;
     bottom: 10px;
-    right: 10px;
+    right: 100px;
 }
 .imgconfoto{
     position: relative;
@@ -37,8 +35,52 @@ p{
     color: #1F1F26;
 }
 
-ul{
-    font-family: 'Open Sans', sans-serif;
+nav{
+    max-width: 100%;
+    margin:auto;
+    background-color: #1D5273;
+    font-size: 25px;
+    padding: 0 0 0 0;
+}
+.menuhorizontal{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
+
+.menuhorizontal > li{
+    color: #F2F2F2;
+}
+
+.menuhorizontal>li>a{
+    display:block;
+    text-decoration: none;
+    color:#F2F2F2;
+}
+
+.menuhorizontal >li:hover{
+    background-color: #2B5F8C;
+}
+
+.menuvertical{
+    position: absolute;
+    display:none;
+    list-style: none;
+    background-color: #2B5F8C;
+}
+
+.menuhorizontal li:hover .menuvertical{
+    display: block;
+}
+
+.menuvertical li:hover{
+    background-color: #2B5F8C;
+}
+
+.menuvertical li a{
+    display: block;
+    color: #F2F2F2;
+    text-decoration: none;
 }
 
 footer{
