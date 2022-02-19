@@ -26,10 +26,6 @@ body{
     right: 100px;
 }
 
-#infocontacto > li{
-   list-style: none;
-}
-
 h2{
     font-size: 30px;
     color: #1F1F26;
@@ -44,14 +40,19 @@ p{
 
 .tirafotos{
     background-color: #2B5F8C;
-    padding: 50px;
-    float: left;
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
 .tirafotos > img{
+    padding: 5px;
+    position: relative;
     width: auto;
     height: 200px;
-    display: inline;
+    display: inline-block;
 }
 
 nav{
@@ -62,22 +63,26 @@ nav{
 }
 .menuhorizontal{
     list-style: none;
+    margin: 0;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 0;
 }
 
 .menuhorizontal > li{
     color: #F2F2F2;
     padding: 10px 60px;
     border: 0px;
+    float:left;
 }
 
-.menuhorizontal>li>a{
-    display:block;
+.menuhorizontal>li a, ul{
+    display: inline-block;
     text-decoration: none;
-    color:#F2F2F2;
+    padding: 14px 16px;
+    color: #F2F2F2;
 }
+
 
 .menuhorizontal > li:hover{
     background-color: #2B5F8C;
@@ -85,8 +90,9 @@ nav{
 
 .menuvertical{
     position: absolute;
-    display:none;
+    display: none;
     list-style: none;
+    z-index: 1;
     background-color: #2B5F8C;
 }
 
@@ -102,24 +108,23 @@ nav{
     display: block;
     color: #F2F2F2;
     text-decoration: none;
+    text-align: left
 }
 
 footer{
     color: #F2F2F2;
-    font-family: 'Open Sans', sans-serif;
-    font-size: inherit;
+    width: 100%;
     background-color: #1F1F26;
-    padding-top: 500px;
+    padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px; 
+    margin: 0;
+    display: inline-block;
 }
+
 #logo{
     width: 25%;
     height: auto;
 }
 
-footer > p{
-    position: relative;
-    left: 30px;
-}
