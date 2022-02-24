@@ -5,26 +5,28 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head><!Titulo de la página>
+    <head><!--Titulo de la página-->
         <title>MontAlt Webcams</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Mont alt webcams">
     </head>
 
-    <!Cuerpo de la pagina web>
+    <!--Cuerpo de la pagina web-->
     <body>
-        <!Cabecera con el nombre de la estacion y la foto.
-         Ambas funcionarán como link a la página principal>
+        <!--Cabecera con el nombre de la estacion y la foto.
+         Ambas funcionarán como link a la página principal-->
     <header>
         <h1><a href="index.html">MONT ALT</a></h1>
         <a href="index.html">
-            <img src="../fotos/Logo.svg" alt="MontAlt">
+            <figure>
+              <img src="../fotos/Logo.svg" alt="MontAlt">  
+            </figure>
         </a>
     </header>
 
-    <!Panel de navegación con todas las páginas del sitio web, menos la principal>
-    <aside>
+    <!--Panel de navegación con todas las páginas del sitio web, menos la principal-->
+    <nav>
         <ul>
             <li>Estación
                 <ul>
@@ -43,12 +45,12 @@ and open the template in the editor.
             <li><a href="historia.html">Historia</a></li>
             <li><a href="comollegar.html">Cómo llegar</a></li>
         </ul>
-    </aside>
+    </nav>
 
-    <!Introducimos una sección con toda la información específica de la página>
+    <!--Introducimos una sección con toda la información específica de la página-->
     <section>
-        <h2>WEBCAMS</h2><!Establecemos el título>
-        <article> <!Introducimos los videos>
+        <h2>WEBCAMS</h2><!--Establecemos el título-->
+        <figure> <!--Introducimos los videos-->
             <video width="920" height="1080" muted autoplay loop>
                 <source src="../videos/video1.mp4" type="video/mp4">
             </video>
@@ -61,18 +63,21 @@ and open the template in the editor.
             <video width="920" height="1080" muted autoplay loop>
                 <source src="../videos/video4.mp4" type="video/mp4">
             </video>
-        </article>
+        </figure>
     </section>
-    <footer><!Pie de página>
-        <h3>CONTACTO:</h3><!Información de contacto>
+    
+    <footer><!--Pie de página-->
+        <h3>CONTACTO:</h3><!--Información de contacto-->
         <ul>
             <li>Información General: 956912315</li>
             <li>Reservas: 99582301</li>
             <li>Atención en pistas: 632154777</li>
             <li>Email: grupomontalt@gmail.com</li>
         </ul>
-        <!Logo de la empresa>
-        <img src="../fotos/Logo.svg" alt="MontAlt">
-        <!Fin del pie de página>
+        <!--Logo de la empresa-->
+        <figure>
+            <img src="../fotos/Logo.svg" alt="MontAlt">
+        </figure>
+        <!--Fin del pie de página-->
     </footer>
 </html>
